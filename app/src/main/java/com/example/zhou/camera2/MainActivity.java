@@ -45,7 +45,7 @@ public class VideoCapture extends Activity implements OnClickListener, SurfaceHo
         holder.addCallback(this);
         holder.setType(SurfaceHolder.SURFACE_TYPE_PUSH_BUFFERS);
 
-        cameraView.setClickable(true);
+        cameraView.setClickable(true); 
         cameraView.setOnClickListener(this);
     }
 
